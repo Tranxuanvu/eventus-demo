@@ -1,0 +1,48 @@
+#myCarousel.carousel.slide{"data-ride" => "carousel"}
+  .carousel-inner
+    .item.active
+      .background
+        %img{:alt => "first slide", :src => "assets/bg-conference.jpg", :class => "img-bg" }        
+        .big-eventus-blue The biggest
+        .big-eventus-white Marketing Conference
+      .bg-businessman
+        %img{:src => "assets/businessman.png"}
+        .big-eventus-white-small With keynot speaker randy Johnson!
+      .pass
+        %img{ :src => "assets/pass.png"}
+      .get-vip
+        %a.btn.btn-danger{:href => "#", :role => "button"} Get Your Vip Pass Now!
+    .item
+      .background
+        = image_tag "bg-2.jpg"
+      .circle
+        = image_tag "circle.png"
+      .tp-caption.example Here is one of the thousands example strategies:
+      .tp-caption.shower-girl
+        = image_tag "shower-girl.png"
+      .tp-caption.percent 70%
+      .tp-caption.lfb Of people sing in the shower.
+      .tp-caption.lfb.lfb1 we advise you to invest in
+      .tp-caption.lfb.lfb2 shower gel with microphone shape.
+      .arrow
+        = image_tag "arrow.png"
+      .splash
+        = image_tag "splash.png"
+      .shower-gel
+        = image_tag "shower-gel.png"
+    .item
+      .background
+        = image_tag "bg-3.jpg"
+        .ticket Register your ticket
+      .lfr
+        = image_tag "ticket-eventus.png"
+      .tablet
+        = image_tag "tablet.png"
+      .lft and you can
+      .lft.lft1 win
+      .lft.lft2 3 x tablet
+  %a.carousel-control.left{:href => "#myCarousel", "data-slide" => "prev", :role => "button"}
+    %i.glyphicon.glyphicon-chevron-left
+
+  %a.carousel-control.right{"data-slide" => "next", :href => "#myCarousel", :role => "button"}
+    %i.glyphicon.glyphicon-chevron-right

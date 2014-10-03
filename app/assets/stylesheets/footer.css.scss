@@ -1,0 +1,29 @@
+.sp-footer-wrapper{
+  background-color: #253342;
+  color: #8e9aa7;
+  .container {
+    .row {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+      padding: 15px 0;
+
+      .col-md-8 {
+        color: #8e9aa7;
+        
+      }
+      .col-md-4 {
+        color: #8e9aa7;
+
+        a {
+          font-size: 12px;
+          float: right;
+          color: #8e9aa7;
+          padding-right: 15px;
+        }
+        a:hover {
+          color: #428bca;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

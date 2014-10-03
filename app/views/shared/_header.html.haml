@@ -1,0 +1,39 @@
+.navbar.navbar-inverse{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand.logo-wrapper
+        = image_tag("logo.png", alt: "asfg")
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{:href => "#"}
+            %span Home
+        %li
+          %a{:href => "#event program"} 
+            %span Event program
+        %li
+          %a{:href => "#organisation"} 
+            %span Organisation
+        %li
+          %a{:href => "#about event"} 
+            %span About event
+        %li
+          %a{:href => "#pages"} 
+            %span Pages
+        %li
+          %a{:href => "#contacts"} 
+            %span Contacts
+        %li
+          %a{:href => "#futures"} 
+            %span Futures
+        %li
+          %a{:href => "#k2"} 
+            %span k2  
+        %li
+          %a{:href => "#pesets"} 
+            %span Presets  

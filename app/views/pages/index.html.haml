@@ -1,0 +1,252 @@
+.body-innerwarapper
+  %section.sp-toolbar-wrapper
+    .container
+      = render 'shared/toolbar'
+  %section.sp-header-wrapper
+    .container
+      .row-fluid-header
+        = render 'shared/header'
+  = render 'shared/slide'
+  %section.sp-user-wrapper
+    .container 
+      .mod-user-wrapper
+        %h3 Eventus - 3rd Annual Boston Conference 2014 - USA, 02 - 15 January 2014.
+        %span Eventus is the largest Marketing, Management & Online Marketing Conference.
+        %a.btn.btn-default.btn-large{ :href => "#"} Buy Tickets Now
+  %section.sp-countdown-wrapper
+    .container  
+      %h3.header-h3 Conference Features & Benefits
+      .line-blue
+      .row-fluid
+        .box
+          %a{:href => "#"}
+            = image_tag "keynotes.jpg", :class => "sp-img"
+          .mod-box
+            = link_to "Keynotes", "#"
+          .mod-line-blue
+          .text
+            %i.fa.fa-key
+            Keynotes from thought leaders
+        .box
+          %a{:href => "#"}
+            = image_tag "strategies.jpg", :class => "sp-img"
+          .mod-box
+            = link_to "Strategies", "#"
+          .mod-line-blue
+          .text
+            %i.fa.fa-gears
+            Strategies that really work
+        .box
+          %a{:href => "#"}
+            = image_tag "workshop.jpg", :class => "sp-img"
+          .mod-box
+            = link_to "Workshops", "#"
+          .mod-line-blue
+          .text
+            %i.fa.fa-lightbulb-o
+            9 Interactive workshops
+        .box.final
+          %a{:href => "#"}
+            = image_tag "network.jpg", :class => "sp-img"
+          .mod-box
+            = link_to "Network", "#"
+          .mod-line-blue
+          .text
+            %i.fa.fa-group
+            15 Full days for networking
+  %section.sp-main-body
+    .container
+      .row
+        .col-md-9
+          .blog
+            %h3.header-h3 Keynote Speakers
+            .line-blue
+            .column
+              .span3
+                = link_to image_tag("1.jpg", :class => "sp-img"), "#"
+                .override-span3
+                  %p I'm pleased to be a keynote speaker at Eventus for third year! Hope to see you there!
+                %cite.triangle
+                %span Stephan Solomon
+                .icon-main-body
+                  %a.fa.fa-facebook{:href => "#"}
+                  %a.fa.fa-twitter{:href => "#"}
+                  %a.fa.fa-google-plus{:href => "#"}
+                  %a.fa.fa-youtube{:href => "#"}
+                  %a.fa.fa-linkedin{:href => "#"}
+
+              .span3
+                = link_to image_tag("3.jpg", :class => "sp-img"), "#"
+                .override-span3
+                  %p I'm Joanna and I'll be your Marketing expert about the new trends, social media and more!
+                %cite  
+                  .triangle
+                %span Joanna Berg
+                .icon-main-body
+                  %a.fa.fa-instagram{:href => "#"}
+                  %a.fa.fa-linkedin{:href => "#"}
+                  %a.fa.fa-facebook{:href => "#"}
+                  %a.fa.fa-twitter{:href => "#"}
+                  %a.fa.fa-google-plus{:href => "#"}
+                  
+              .span3
+                = link_to image_tag("4.jpg", :class => "sp-img"), "#"
+                .override-span3
+                  %p As a top marketing manager I can bring valuable information directly from the "kitchen" :)
+                %cite  
+                  .triangle
+                %span Terrence Monroe
+                .icon-main-body
+                  %a.fa.fa-google-plus{:href => "#"}
+                  %a.fa.fa-twitter{:href => "#"}
+                  %a.fa.fa-weibo{:href => "#"}
+                  %a.fa.fa-linkedin{:href => "#"}
+                  %a.fa.fa-facebook{:href => "#"}
+
+              .span3.final
+                = link_to image_tag("2.jpg", :class => "sp-img"), "#"
+                .override-span3.final
+                  %p This is my first time here on Eventus, and I'm trilled to be a speaker on such big event!
+                %cite  
+                  .triangle
+                %span Amanda Thomas
+                .icon-main-body
+                  %a.fa.fa-linkedin{:href => "#"}
+                  %a.fa.fa-facebook{:href => "#"}
+                  %a.fa.fa-google-plus{:href => "#"}
+                  %a.fa.fa-twitter{:href => "#"}
+                  %a.fa.fa-linux{:href => "#"}
+              
+        .col-md-3
+          %h3.header-h3 Highlights
+          .line-blue
+          .column
+            .sp-body
+              .item-container 
+                %h4 Who to Attend
+                %a.indicator.fa.fa-share
+              .item-container 
+                %h4 Who to Attend
+                %a.indicator.fa.fa-share
+              .item-container 
+                %h4 What's New
+                %a.indicator.fa.fa-share
+              .item-container 
+                %h4 How to Join
+                %a.indicator.fa.fa-share
+              .item-container 
+                %h4 
+                  %a.indicator.fa.fa-share Why Boston         
+  %section.sp-position-wrapper
+    .container
+      .row
+        .sp-position-l
+          .col-md-6
+            %h3.header-h3 Video Presentation
+            .line-blue
+            .video
+              %iframe.sp-video{:allowfullscreen => "", :frameborder => "0", :mozallowfullscreen => "", :src => "https://www.youtube.com/embed/zJBkJhaWMpE", :webkitallowfullscreen => ""}
+        .sp-position-r
+          .col-md-6
+            %h3.header-h3 Teaser
+            .line-blue
+            .customtitle
+              .span6
+                %h3
+                  %a 
+                    %i.fa.fa-group
+                    35+ Speake
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              .span6.final
+                %h3
+                  %a 
+                    %i.fa.fa-microphone
+                    30+ Sessions
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              .span6
+                %h3
+                  %a 
+                    %i.fa.fa-dashboard
+                    30+ Sessions
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              .span6.final
+                %h3
+                  %a
+                    %i.fa.fa-link 
+                    30+ Sessions
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+
+              %a.btn.btn-block.btn-inverse.btn-large{:href => "/drama/images/Demo/eventus_brochure.pdf", :target => "_blank"} Download Our Brochure: Eventus 2014
+  %section.sp-inbottom-wrapper
+    .container
+      = render 'shared/inbottom'
+        
+  %section.sp-bottom-wrapper
+    .container
+      %h3.header-h3 Top Event Sponsors
+      .line-white
+      = render 'shared/bottom'
+  %section.sp-bottom-2-wrapper
+    .container
+      .row
+        .col-md-3
+          %h3.header-h3 About Eventus
+          .line-blue
+          .list
+            %ul.angleright
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Register", "#"
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Become a Sponsor", "#"
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Timetable", "#"
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Dates & Events", "#"
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Hotels & Sites", "#"
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Travel Information", "#"
+              %li
+                %i.fa.fa-angle-right
+                =link_to "Buy Tickets", "#"
+        .col-md-3
+          %h3.header-h3 We're Starting In
+          .line-blue
+        .col-md-3
+          %h3.header-h3 About us
+          .line-blue
+          .div-para
+            %p We are Eventus - one of the largest events organized annually. Every year we are aiming to link you to the future.
+            %br
+            %p Stay Connected on:
+            %p
+              %i.fa.fa-facebook.btn.btn-link.social.btn-
+              %i.fa.fa-twitter.btn.btn-link.social.btn-
+              %i.fa.fa-pinterest.btn.btn-link.social.btn-
+              %i.fa.fa-google-plus.btn.btn-link.social.btn-
+              %i.fa.fa-dribbble.btn.btn-link.social.btn-
+        .col-md-3
+          %h3.header-h3 Contacts
+          .line-blue
+          .div-para For general information about the event/expo/conference, including registration, please contact us at:
+          %li
+            %i.fa.fa-envelope 
+            eventus (@) yoursite.com
+          %li
+            %i.fa.fa-phone 
+            +555.123.4567
+          %li
+            %i.fa.fa-print 
+            +555.123.4568
+          %li
+            %i.fa.fa-building 
+            2nd Ave and Washington
+  =render 'shared/footer'
+%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"}
+%script{:src => "js/bootstrap.min.js"}

@@ -1,0 +1,26 @@
+#bottomCarousel.carousel.slide{"data-ride" => "carousel"}
+  .button-next-prev
+    %a.button-prev.fa.fa-angle-left{"data-slide" => "prev", :href => "#bottomCarousel", :role => "button"}
+    %a.button-next.fa.fa-angle-right{"data-slide" => "next", :href => "#bottomCarousel", :role => "button"}
+  .carousel-inner
+    .item.active
+      .row
+        .col-md-3
+          = link_to image_tag("jasons.png")
+        .col-md-3
+          = link_to image_tag("havana.png")
+        .col-md-3
+          = link_to image_tag("beta.png")
+        .col-md-3
+          = link_to image_tag("cardinal.png")
+    .item
+      .row
+        .col-md-3
+          = link_to image_tag("ccn.png")
+        .col-md-3
+          = link_to image_tag("ski.png")
+        .col-md-3
+          = link_to image_tag("evro.png")
+        .col-md-3
+          = link_to image_tag("rex.png")
+          
