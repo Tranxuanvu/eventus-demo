@@ -1,0 +1,26 @@
+.Toolbar-wrapper {
+  background: #2c3c4d;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  .sp-toolbar-l, a {
+    margin-top: 3px;
+    padding: 0;
+    color: #718091;
+    font-size: 12px;
+  }
+ 
+  .module-toolbar {
+    margin: 5px;
+  }
+
+  .sp-toolbar-r, a { 
+    padding: 0;
+    color: #718091;
+    text-align: right;
+    font-size: 12px;
+  }
+  .icon-toolbar {
+    width: 30px;  
+    text-align: center;
+  }
+}
