@@ -1,6 +1,6 @@
-.Conference-wrapper {
-  border-top: 1px solid #fff;
-  background: #f2f2f2;
+.conference {
+  border-top: 1px solid white;
+  background: $white-color2;
 
   .container {
     .row-fluid {
@@ -10,7 +10,7 @@
         width: 23.5%;
         float: left;
         margin: 1% 2% 2% 0;
-        border: 1px solid #ddd;
+        border: 1px solid $white-color3;
 
         .mod-box {
           margin-top: 3%;
@@ -20,16 +20,16 @@
         a {
           font-size: 18px;
           display: inline;
-          color: #555555;
+          color: $gray-color6;
 
           &:hover, &:focus{
-            color: #428bca;
+            color: $blue-color6;
             text-decoration: none;
           }
         }
         .text {
           text-align: center;
-          color: #aaa;
+          color: $gray-color7;
           margin: 5% 0;
           font-size: 11px;
           font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -37,7 +37,7 @@
 
         .mod-line-blue {
           margin: 2% auto;
-          background-color: #049cdb;
+          background-color: $blue-color2;
           display: block;
           height: 1px;
           position: relative;

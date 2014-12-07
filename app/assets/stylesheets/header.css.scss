@@ -1,8 +1,9 @@
-.Header-wrapper {
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-  background-color: #ffffff;
+.header {
+  border-top: 1px solid $white-color1;
+  border-bottom: 1px solid $white-color1;
+  background-color: white;
   padding: 20px 0;
+
   .container {
     .row-fluid-header {
       box-sizing: border-box;
@@ -15,12 +16,12 @@
   }
 
   .navbar-inverse {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: white;
+    border-color: white;
     margin: 0;
 
     .navbar-toggle {
-      background-color: #333333;
+      background-color: $gray-color4;
     }
 
     .navbar-brand {
@@ -28,7 +29,7 @@
     }
 
     .logo-wrapper {
-      background-color: #fff;
+      background-color: white;
       padding: 0;
     }
     .navbar-nav {
@@ -39,15 +40,15 @@
         padding: 10px;
         margin: 2px;
         &:hover {
-          background-color: #049cdb;
-          box-shadow: 3px 3px 0 #c9c9c9;
+          background-color: $blue-color2;
+          box-shadow: 3px 3px 0 $gray-color5;
         }
       }
 
       & > .active {
         & > a, & > a:hover {
-          background-color: #049cdb;
-          box-shadow: 3px 3px 0 #c9c9c9;
+          background-color: $blue-color2;
+          box-shadow: 3px 3px 0 $gray-color5;
         }
       }
     }
@@ -61,7 +62,7 @@
       }
       .navbar-collapse {
         position: absolute;
-        background-color: #333;
+        background-color: $gray-color4;
         width: 100%;
         left: 0;
         z-index: 1;
@@ -73,13 +74,15 @@
         float: none!important;
         margin: 7.5px -15px;
         text-transform: none;
+        
         & > .active {
           & > a{
-            color: #999;
+            color: $gray-color1;
           }
+
           & > a, & > a:hover {
-            background-color: #333;
-            box-shadow: 0 0 #333;
+            background-color: $gray-color4;
+            box-shadow: 0 0 $gray-color4;
           }
         }
       }
@@ -88,9 +91,9 @@
       }
       .navbar-nav>li>a {
         &:hover {
-          color: #fff;
-          background-color: #333;
-          box-shadow: 0 0 #333;
+          color: white;
+          background-color: $gray-color4;
+          box-shadow: 0 0 $gray-color4;
         }
       }
 

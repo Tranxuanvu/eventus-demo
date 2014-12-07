@@ -1,6 +1,7 @@
-.sp-inbottom-wrapper {
+.sp-inbottom {
   padding: 5px 8px 8px 8px;
-  background-color: #f2f2f2;
+  background-color: $white-color2;
+
   .container {
     .sp-latest_news {
       padding: 5px 10px;
@@ -18,7 +19,7 @@
             font-size: 14px;
           }
           .calendar {
-            color: #999;
+            color: $gray-color1;
             font-size: 10px;
             font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
           }
@@ -28,21 +29,21 @@
           }
           .introtext {
             font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-            color: #666666;
+            color: $gray-color6;
           }
           .more {
             a {
               text-decoration: none;
-              background-color: #2d3c4d;
+              background-color: $blue-color1;
               padding: 5px 10px;
-              color: #fff;
+              color: white;
               border: 1px solid transparent;
               border-radius: 4px;
               font-size: 13px;
               font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
             }
             & >a:hover, & >a:focus {
-              background-color: #3a4c5f;
+              background: $blue-color7;
             }
           }
         }
@@ -51,17 +52,17 @@
   }
 }
 
-.sp-bottom-wrapper {
+.sp-bottom {
   padding: 10px 0;
-  background: #049cdb;
-  color: #e0f5fe;
+  background: $blue-color2;
+  color: $blue-color8;
   .container {
     padding-bottom: inherit;
 
     .header-h3 {
       text-align: center;
-      color: #fff;
-      border-bottom: 1px solid #49c7fc;
+      color: white;
+      border-bottom: 1px solid $blue-color9;
       padding-bottom: 5px;
       margin: 0;
     }
@@ -71,22 +72,22 @@
 
       a:hover {
         text-decoration: none;
-        color: #fff;
-        background-color: #2d3c4d;
+        color: white;
+        background-color: $blue-color1;
         }
       .button-prev {
         padding: 2px 7px;
-        background-color: #ddd;
+        background-color: $white-color3;
       }
       .button-next {
         padding: 2px 7px;
-        background-color: #ddd;
+        background-color: $white-color3;
       }
     }
     .line-white {
       content: "";
       margin: -1px auto;
-      background-color: #e0f5fe;
+      background-color: $blue-color8;
       height: 1px;
       width: 90px;
     }
@@ -100,13 +101,13 @@
 
 .sp-bottom-2-wrapper {
   padding: 10px;
-  color: #8e9aa7;
-  background-color: #2d3c4d;
+  color: $gray-color2;
+  background-color: $blue-color1;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   .container {
     .row {
       .header-h3 {
-        color: #8e9aa7;
+        color: $gray-color2;
         font-family: "Oswald";
       }
       .list {
@@ -117,13 +118,13 @@
           list-style: none;
 
           a {
-            color: #8e9aa7;
+            color: $gray-color2;
             font-size: 14px;   
           }
 
           a:hover {
             text-decoration: none;
-            color: #fff;
+            color: white;
           }
         }
       }
@@ -131,15 +132,15 @@
         padding-top: 10px;
 
         .btn.social {
-          background-color: #fff;
+          background-color: white;
         }
         .btn.social:hover {
-          background: #2d3c4d;
-          color: #fff;
+          background: $blue-color1;
+          color: white;
           text-decoration: none;
         }
         .btn-link {
-          color: #2d3c4d;
+          color: $blue-color1;
         }
       }
       li {

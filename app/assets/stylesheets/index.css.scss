@@ -1,12 +1,13 @@
+@import "variables";
+@import "bootstrap";
 @import "toolbar";
 @import "header";
 @import "slide";
 @import "conference";
 @import "keynote";
 @import "video_teaser";
-@import "footer";
 @import "bottom";
-@import "bootstrap";
+@import "footer";
 
 .body-innerwrapper {
   overflow-x: hidden;
@@ -17,7 +18,7 @@
 }
 
 .header-h3 {
-  color: #666666;
+  color: $gray-color6;
   margin-top: 1%;
   margin-bottom: 0;
   line-height: normal;
@@ -27,7 +28,7 @@
 .line-blue {
   content: "";
   margin: -1px 0px;
-  background-color: #049cdb;
+  background: $blue-color2;
   height: 1px;
   width: 90px;
 }
@@ -40,10 +41,10 @@ a:hover {
   height: 50px;
 }
 
-.sp-UnderCarousel {
-  border-top: 1px solid #048ac2;
-  border-bottom: 1px solid #048ac2;
-  background: #049cdb;
+.sp-under-carousel {
+  border-top: 1px solid $blue-color4;
+  border-bottom: 1px solid $blue-color4;
+  background: $blue-color2;
 
   .mod-user-wrapper {
     padding: 1% 0 0 0;
@@ -54,10 +55,10 @@ a:hover {
       font-weight: 400;
       margin: 0;
       line-height: normal;
-      color: #fff;
+      color: white;
     }
     span {
-      color: #fff;
+      color: white;
       font-size: 12pt;
     }
 
